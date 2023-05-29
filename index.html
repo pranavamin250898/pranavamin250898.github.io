@@ -19,6 +19,15 @@
     .w3-row-padding img {
       margin-bottom: 12px
     }
+    .w3-jumbo {
+      font-size: 24px; /* Adjust the font size for mobile screens */
+    }
+  
+    @media only screen and (min-width: 600px) {
+      .w3-jumbo {
+        font-size: 48px; /* Set a larger font size for screens wider than 600px */
+      }
+    }
     
     /* Set the width of the sidebar to 120px */
     .w3-sidebar {
@@ -30,6 +39,7 @@
     #main {
       margin-left: 120px
     }
+    
     
     /* Remove margins from "page content" on small screens */
     @media only screen and (max-width: 600px) {
